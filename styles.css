@@ -1,12 +1,9 @@
-/*  your css code here. If applicable */
-#container{
-	margin: 20px;
+#container {
+    margin: 20px;
 }
-div span:first-child{
-	color:rgb(255, 0, 0);
-	font-size: 20px;
-}
-div span:last-child{
-	color: rgb(255, 0, 0);
-	font-size: 20px;
+
+#container span:first-child,
+#container span:last-child {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
 }
