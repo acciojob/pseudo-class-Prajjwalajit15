@@ -1,7 +1,14 @@
 #container {
     margin: 20px;
 } 
-.new_element{
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-}
+#container:before{
+    content:"Before Element";
+	font-size:20px;
+	color:#f00;
+} 
+#container:after{
+     content:"After Element";
+	font-size:20px;
+	color:#f00;
+} 
+ 
